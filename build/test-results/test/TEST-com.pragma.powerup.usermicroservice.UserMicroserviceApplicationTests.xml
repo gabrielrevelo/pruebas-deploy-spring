@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pragma.powerup.usermicroservice.UserMicroserviceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-27T16:56:33" hostname="DESKTOP-BQDMBF4" time="0.221">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.pragma.powerup.usermicroservice.UserMicroserviceApplicationTests" time="0.221"/>
+  <system-out><![CDATA[11:56:22.322 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [UserMicroserviceApplicationTests]: using SpringBootContextLoader
+11:56:22.328 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.pragma.powerup.usermicroservice.UserMicroserviceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:56:22.329 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.pragma.powerup.usermicroservice.UserMicroserviceApplicationTests]: UserMicroserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:56:22.365 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [UserMicroserviceApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+11:56:22.454 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\revel\OneDrive\Escritorio\cgr project\power-up-arquetipo-v3\build\classes\java\main\com\pragma\powerup\usermicroservice\UserMicroserviceApplication.class]
+11:56:22.456 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.pragma.powerup.usermicroservice.UserMicroserviceApplication for test class com.pragma.powerup.usermicroservice.UserMicroserviceApplicationTests
+11:56:22.586 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [UserMicroserviceApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, WithSecurityContextTestExecutionListener, EventPublishingTestExecutionListener, ReactorContextTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+11:56:22.588 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [UserMicroserviceApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+,------.                                         ,------.                                ,--. ,--.
+|  .--. ',--.--.,--,--. ,---. ,--,--,--. ,--,--. |  .--. ',---. ,--.   ,--.,---. ,--.--. |  | |  | ,---.
+|  '--' ||  .--' ,-.  || .-. ||        |' ,-.  | |  '--' | .-. ||  |.'.|  | .-. :|  .--' |  | |  || .-. |
+|  | --' |  |  \ '-'  |' '-' '|  |  |  |\ '-'  | |  | --'' '-' '|   .'.   \   --.|  |    '  '-'  '| '-' '
+`--'     `--'   `--`--'.`-  / `--`--`--' `--`--' `--'     `---' '--'   '--'`----'`--'     `-----' |  |-'
+                       `---'                                                                      `--'
+ 
+Powered by Spring Boot 3.0.4
+
+2023-06-27T11:56:22.982-05:00  INFO 9720 --- [    Test worker] c.p.p.u.UserMicroserviceApplicationTests : Starting UserMicroserviceApplicationTests using Java 18.0.1.1 with PID 9720 (started by revel in C:\Users\revel\OneDrive\Escritorio\cgr project\power-up-arquetipo-v3)
+2023-06-27T11:56:22.984-05:00  INFO 9720 --- [    Test worker] c.p.p.u.UserMicroserviceApplicationTests : The following 1 profile is active: "dev"
+2023-06-27T11:56:24.179-05:00  INFO 9720 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-27T11:56:24.270-05:00  INFO 9720 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-06-27T11:56:24.764-05:00  INFO 9720 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-27T11:56:26.796-05:00  INFO 9720 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f5ce33e
+2023-06-27T11:56:26.799-05:00  INFO 9720 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-27T11:56:26.939-05:00  INFO 9720 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-27T11:56:27.036-05:00  INFO 9720 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-27T11:56:27.961-05:00  INFO 9720 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-06-27T11:56:30.251-05:00  INFO 9720 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-27T11:56:30.263-05:00  INFO 9720 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27T11:56:30.825-05:00  WARN 9720 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-27T11:56:32.543-05:00  INFO 9720 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52cda4bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40aaf656, org.springframework.security.web.context.SecurityContextHolderFilter@45c10678, org.springframework.security.web.header.HeaderWriterFilter@4615bc00, org.springframework.web.filter.CorsFilter@5a183fa6, org.springframework.security.web.authentication.logout.LogoutFilter@3c070ade, com.pragma.powerup.usermicroservice.configuration.security.jwt.JwtTokenFilter@7a79a5d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e140753, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53bc6492, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@167ccc3c, org.springframework.security.web.session.SessionManagementFilter@569b3009, org.springframework.security.web.access.ExceptionTranslationFilter@45e49d3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ba516ff]
+2023-06-27T11:56:33.012-05:00  INFO 9720 --- [    Test worker] c.p.p.u.UserMicroserviceApplicationTests : Started UserMicroserviceApplicationTests in 10.372 seconds (process running for 11.818)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
