@@ -40,3 +40,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+springBoot {
+	mainClass = 'com.pragma.powerup.usermicroservice.UserMicroserviceApplication' // Reemplaza 'com.example.Application' con la clase principal de tu aplicación
+}
